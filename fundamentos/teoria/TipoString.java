@@ -12,9 +12,9 @@ public class TipoString {
         System.out.println(s.length()); // Pode indicar um valor
         System.out.println(s.equals("boa tarde")); // Compara valores e pode se combinado como  equalsIgnoreCase e outras
 
-        var nome = "Pedro";
-        var sobrenome = "Santos";
-        var nomeCompleto = nome.concat(" " + sobrenome);
+        String nome = "Pedro";
+        String sobrenome = "Santos";
+        String nomeCompleto = nome.concat(" " + sobrenome);
         System.out.println(nomeCompleto);
 
         System.out.printf("Nome: %s %s", nome, sobrenome); // %s ou %d... é usado como formatação para não precisar colocar tudo na frase

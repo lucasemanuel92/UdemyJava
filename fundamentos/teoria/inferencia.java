@@ -11,10 +11,10 @@ public class inferencia {
 		double a = 4.5;
 		System.out.println(a);
 		
-		var b = 4.5; // O Java infere qual � o tipo 
+		double b = 4.5; // O Java infere qual � o tipo
 		System.out.println(b);
 		
-		var c = "Texto"; // Inferindo ser uma STRING
+		String c = "Texto"; // Inferindo ser uma STRING
 		System.out.println(c);
 		c = "Outro texto";
 		System.out.println(c);
