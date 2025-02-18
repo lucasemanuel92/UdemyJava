@@ -2,6 +2,7 @@ package fundamentos.desafios;
 
 public class EquacaoAritimetica {
     public static void main(String[] args) {
+        // Foi dada uma equação para ser refeita, tá bem ruim, mas funciona
 
         double a = 6 * (3 + 2);
         double b = 3 * 2;
